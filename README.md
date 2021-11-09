@@ -1,6 +1,49 @@
+pip3 install django
+
+To see what gets installed go here in Terminal:
+ cd /workspace/.pip-modules/lib/python3.7/site-packages/
+
+type:
+ls -la
+to list out all the directories and packages
+
+!!(just don't change anything in there because it could corrupt files)!!
+
+use:
+cd -
+to get back to the last directory we were working in.
+
+to create a new project in the current directory:
+django-admin startproject django_todo .
+
+if using pip not pip3, then it would install for python2 not python3.
+
+
+to use manage.py:
+python3 manage.py runserver
+
+after doing that these files got created:
+_pycache_
+db.sqlite3
+(dont delete or change this file EVER)
+
+
+Django makes programs called: apps
+
+
+
+
+
+
+
+
+
+
+
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome USER_NAME,
+Welcome LogicAtom,
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
